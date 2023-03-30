@@ -16,16 +16,19 @@ const useField = (type) => {
 }
 
 const useCountry = (name) => {
-  const [country, setCountry] = useState('')
-
+  const [country, setCountry] = useState(null)
+  
   useEffect(() => {
   if(name) {
   axios
     .get(`https://restcountries.com/v2/name/${name}?fullText=true`)
     .then(res => {
       setCountry(res.data[0])
+    }).catch(error => {
+      setCountry('')
     })
     }
+
   },[name])
 
   return country

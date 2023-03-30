@@ -155,14 +155,13 @@ const App = () => {
     ? anecdotes.find(anecdote => anecdote.id === Number(match.params.id))
     : null
 
-    console.log(match.params)
-
   return (
     <div>
       <h1>Software anecdotes</h1>
       <Menu />
       <p>{notification}</p>
       <Routes>
+      <Route path='/' element={<AnecdoteList anecdotes={anecdotes}/>}/>
         <Route path='/anecdotes/:id' element={<Anecdote anecdote={anecdote}/>}/>
         <Route path='/anecdotes' element={<AnecdoteList anecdotes={anecdotes}/>}/>
         <Route path='/create' element={<CreateNew addNew={addNew}/>}/>

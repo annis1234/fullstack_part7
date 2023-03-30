@@ -9,36 +9,16 @@
       "content": "best feature ever <3"
     },
     {
-      "content": "test",
+      "content": "test note",
       "id": 3
     },
     {
-      "content": "test",
+      "content": "test note 2",
       "id": 4
     },
     {
-      "content": "test2",
+      "content": "test note 3",
       "id": 5
-    },
-    {
-      "content": "test3",
-      "id": 6
-    },
-    {
-      "content": "test4",
-      "id": 7
-    },
-    {
-      "content": "test5",
-      "id": 8
-    },
-    {
-      "content": "test6",
-      "id": 9
-    },
-    {
-      "content": "test7",
-      "id": 10
     }
   ],
   "persons": [
@@ -53,24 +33,19 @@
       "number": "040-2223334"
     },
     {
-      "name": "test",
-      "number": "4444",
+      "name": "test person",
+      "number": "222233",
       "id": 3
     },
     {
-      "name": "test2",
+      "name": "test person 2",
       "number": "555",
       "id": 4
     },
     {
-      "name": "test3",
-      "number": "666",
+      "name": "test person 3",
+      "number": "6666",
       "id": 5
-    },
-    {
-      "name": "test4",
-      "number": "2222",
-      "id": 6
     }
   ]
 }
